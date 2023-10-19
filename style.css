@@ -1,0 +1,136 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.nav
+{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    font-family: sans-serif;
+    color: #2c585e;
+}
+.nav-mid
+{
+ display: flex;
+ align-items: center;
+ gap: 60px;
+ font-weight: 100;
+ font-size: 13px;
+}
+i{
+    font-size: 20px;
+    padding: 30px;
+}
+.center
+{
+    height: 89%;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+}
+.left
+{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    
+
+}
+.mid 
+{
+    width: 79%;
+    height: 87%;
+    background-color: #ffffff;
+    background-image: url(https://img.freepik.com/premium-photo/modern-interior-living-room-3d-rendering_46483-954.jpg?w=900);
+    background-size: contain;
+    position: relative;
+}
+.right
+{
+    width: 90px;
+    height: 100%;
+    background-color: #fdfdfd;
+   
+}
+.content
+{
+    height: 55%;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.616);
+    position: absolute;
+    top: 25%;
+   
+  
+    font-size: 23px;
+    color: #2c585e;
+    padding-left: 130px;
+}
+.content>h1
+{   font-size: 50px;
+    margin-top: 100px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    
+}
+.content>p
+{   margin-top: 20px;
+    font-size: 16px;
+    line-height: 22x;
+    word-spacing: 3px;
+}
+img
+{
+    position: absolute;
+    top: -20%;
+    left: 17%;
+    height: 150px;
+}
+.nav-center
+{
+    margin-top: 160px;
+}
+.nav-center>h1
+{
+    rotate: 90deg;
+    padding: 15px;
+    
+    font-weight: 300;
+    color: #2c585e;
+}
+.right>h5
+{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 35px;
+    font-weight: 400;
+    color:#2c585e;
+}
+.showdow
+{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+   right: 0;
+   bottom: 0;
+    background-color: rgba(255, 255, 255, 0.593);
+   margin-top: 20px;  
+
+}
+.showdow>h1
+{   rotate: 90deg;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 900;
+  
+}
